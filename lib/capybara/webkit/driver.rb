@@ -324,6 +324,10 @@ module Capybara::Webkit
       warn "[DEPRECATION] Capybara::Webkit::Driver#browser is deprecated."
       @browser
     end
+    
+    def browser_initialized?
+      true
+    end
 
     private
 
